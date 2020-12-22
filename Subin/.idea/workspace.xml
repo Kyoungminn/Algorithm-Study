@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc063d4-51a6-4663-be6a-6cb3f94dd1bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/[1차] 비밀지도.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x만큼 간격이 있는 n개의 숫자.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/예산.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자릿수 더하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자연수 뒤집어 배열로 만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/정수 내림차순으로 배치하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/정수 제곱근 판별.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/제일 작은 수 제거하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/직사각형 별찍기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/짝수와 홀수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최대공약수와 최소공배수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/콜라츠 추측.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/평균 구하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/하샤드 수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/핸드폰 번호 가리기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/행렬의 덧셈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0dc063d4-51a6-4663-be6a-6cb3f94dd1bd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +178,7 @@
       <updated>1608536665286</updated>
       <workItem from="1608536667396" duration="1418000" />
       <workItem from="1608538248254" duration="9819000" />
-      <workItem from="1608616272187" duration="6876000" />
+      <workItem from="1608616272187" duration="7176000" />
     </task>
     <servers />
   </component>
