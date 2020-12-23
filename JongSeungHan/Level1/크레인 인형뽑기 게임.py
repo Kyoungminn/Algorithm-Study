@@ -1,28 +1,27 @@
 def solution(board, moves):
-    answer = 0
-    basket = list()
 
-    while moves:
-        move = moves.pop(0)
-        doll = -1
+    answer = 0
+    basket = []
+    top = -1 # 스택의 인덱스
+
+    for move in moves:
         for i in range(len(board)):
             if board[i][move-1] != 0:
-                doll = board[i][move-1]
-                board[i][move-1] = 0
+                if top == -1:
+                    basket.append(board[i][move-1])
+                    board[i][move-1] = 0
+                    top += 1
+                else:
+                    basket.append(board[i][move-1])
+                    board[i][move-1] = 0
+                    if basket[top+1] == basket[top]:
+                        basket.pop()
+                        basket.pop()
+                        answer += 2
+                        top -= 1
+                    else:
+                        top += 1
                 break
-        
-        if doll == -1:
-            continue
-        if not basket:
-            basket.append(doll)
-        else:
-            top = basket[0]
-            if top == doll:
-                answer += 2
-                basket.pop(0)
-            else:
-                basket.insert(0, doll)
-                
     return answer
 
 board = [[0,0,0,0,0],
