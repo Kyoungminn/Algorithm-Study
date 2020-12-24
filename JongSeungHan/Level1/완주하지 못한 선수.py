@@ -1,21 +1,11 @@
 def solution(participant, completion):
     answer = ''
-    duplicate = ''
-    chance = 1
 
-    for i in range(len(participant)):
-        for j in range(i+1, len(participant)):
-            if participant[i] == participant[j]:
-                duplicate = participant[j]
-        
-        if participant[i] == duplicate:
-            if chance == 0:
-                answer = participant[i]
-            else:
-                chance -= 1
+    for p in participant:
+        if p in completion:
+            completion.remove(p)
         else:
-            if participant[i] not in completion:
-                answer = participant[i]
+            answer = p
     
     return answer
 
