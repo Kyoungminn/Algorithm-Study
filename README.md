@@ -17,6 +17,3 @@
 - [한종승](https://github.com/BellWin98)
 - [신현지](https://github.com/gus092)
 
-## 스터디 출석표 
-
-> 출석 O, 결석 X
